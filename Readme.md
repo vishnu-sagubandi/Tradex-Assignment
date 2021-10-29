@@ -7,3 +7,12 @@ An application that has two apps.
 2. Products app with `Product` model. Product : name, weight, price, created_at, updated_at Both of the apps should use two different databases. Create a form that an authenticated user can use to create a post.
 
 Since specifications of fields have not been mentioned, I assumed all the fields are mandatory and not blank.
+
+### Two seperate databases for two different apps:
+
+- `users_db` for User app
+- `products_db` for Products app
+
+Look at the following screenshot of database schema
+
+![Database](static/databases_ss.png)
