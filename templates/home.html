@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% block content %}
+<div class="container">
+  {% for post in posts %}
+  <div class="card border-secondary mb-3">
+    <div class="card-header bg-light">
+      <a class="mr-3" href="#">{{ post.user }}</a>
+
+      <small class="text-muted"
+        >posted on : {{ post.created_at|date:"F d, Y" }}</small
+      >
+    </div>
+    <div class="card-body">
+      <p class="card-text">{{ post.text }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock content %}
