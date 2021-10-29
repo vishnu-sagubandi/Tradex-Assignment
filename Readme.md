@@ -21,14 +21,13 @@ Look at the following screenshot of database schema
 
 ### Have a local copy
 
-Clone or download [Tradexa](https://help.github.com/articles/fork-a-repo) repository.
+Clone or download [Tradexa](https://github.com/vishnu-sagubandi/Tradex-Assignment) repository.
 
 ```sh
-git clone https://github.com/<yourGithubUsername>/Backend.git
-cd Backend/
+git clone https://github.com/vishnu-sagubandi/Tradex-Assignment.git
 ```
 
-### Setting Environment First Time
+### Setting up Environment for Project
 
 #### Basic Requirements
 
