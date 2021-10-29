@@ -16,3 +16,5 @@ Since specifications of fields have not been mentioned, I assumed all the fields
 Look at the following screenshot of database schema
 
 ![Database](static/databases_ss.png)
+
+## Local project setup
